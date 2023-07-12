@@ -1,0 +1,5 @@
+Data Binding:
+
+1. String Interpolation:
+    Sname = " Palak & Divya ";
+    {{name}}
