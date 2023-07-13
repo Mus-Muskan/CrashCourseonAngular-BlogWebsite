@@ -7,6 +7,20 @@ import { Component } from '@angular/core';
 })
 export class DemoComponent {
 
-  public name = "Divya & Palak";
+  name = "";
 
+  Reset(){
+    this.name="";
+  }
+
+  product = "" ;
+  Products:string[]=["Podcast" ];
+
+  addProduct(){
+    this.Products.push(this.product);
+  }
+newLaunch=false;
+  onLaunch(){
+    this.newLaunch=true;
+  }
 }

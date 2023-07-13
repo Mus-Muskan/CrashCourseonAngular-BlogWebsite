@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  name = "User";
+  image_src="assets/image1.png";
+
 }

@@ -1,4 +1,25 @@
-<h6>Angular Project</h6>
-<h4>Gallery </h4>
-<p>Testimonials</p>
+<label for="">Please Enter you Name:</label>
+<pre></pre>
+<input [(ngModel)]="name" type="text" name="" id="" class="form-control">
+<pre></pre>
+<button class="btn btn-primary" [disabled]="name===''" (click)="Reset()">Reset</button>
 
+<h3>{{name}} ! Welcome to our Blog !</h3>
+
+<label for="">Enter the Name of the newly Launched Product:</label>
+<br>
+<input [(ngModel)]="product" type="text" name="" id="" class="form-control">
+<pre></pre>
+<button  class="btn btn-primary"  (click)="addProduct()" (click)="onLaunch()">Add Item</button>
+<pre></pre>
+<label *ngIf="newLaunch" for="">Latest Products !!!</label>
+<ul>
+    <li *ngFor="let x of Products">{{x}}</li>
+</ul>
+
+<div class="book">
+    <p>Hello</p>
+    <div class="cover">
+        <p>Hover Me</p>
+    </div>
+   </div>

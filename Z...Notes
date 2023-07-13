@@ -1,5 +1,16 @@
-Data Binding:
+Data Binding :
 
-1. String Interpolation:
-    Sname = " Palak & Divya ";
-    {{name}}
+    1. String Interpolation
+    2. Property 
+    3. Two-Way Binding
+    4. Event Binding 
+    (click)="function()";
+
+Directives 
+
+    1. Structural: *ngIf , *ngFor
+    2. Attribute
+
+Services 
+
+    

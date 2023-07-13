@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { DemoComponent } from './components/demo/demo.component';
@@ -14,10 +15,11 @@ import { ContactComponent } from './components/contact/contact.component';
     DemoComponent,
     HomeComponent,
     NavigationComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule, 
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
