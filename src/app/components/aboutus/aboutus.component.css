@@ -1,0 +1,29 @@
+#page{
+    background: radial-gradient(#ffffff, #d6e9ff);  
+}
+img{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+#about{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#items{
+    list-style-type: none;
+    align-items: center;
+}
+#item-odd
+{
+    margin-left:50%;
+    
+}
+#item-even
+{
+    margin-right:50%;
+    text-align: right;
+    
+}
